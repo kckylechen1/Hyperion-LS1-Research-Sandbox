@@ -1,0 +1,624 @@
+{
+  "arms": {
+    "A_warpcore": {
+      "skipped": false,
+      "horizons": {
+        "T5": {
+          "n_queries": 20,
+          "top_k": 5,
+          "horizon": "T5",
+          "embedding_type": "z",
+          "mean_true_S_rate": 0.14,
+          "mean_false_trap_rate": 0.55,
+          "mean_avg_fwd_return": -0.69,
+          "mean_similarity": 0.747,
+          "bca_true_S_rate": {
+            "point": 0.14,
+            "lower": 0.07,
+            "upper": 0.24,
+            "n": 20,
+            "n_resamples": 10000,
+            "method": "bca",
+            "acceleration": 0.049199
+          },
+          "per_query": [
+            {
+              "query_id": "SYNTH_OPTICAL_A.SZ_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.0,
+              "avg_fwd_return": -1.29,
+              "worst_mae": -10.21,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.759
+            },
+            {
+              "query_id": "002475.SZ_2026-05-26_day",
+              "true_S_rate": 0.6,
+              "false_trap_rate": 0.0,
+              "avg_fwd_return": 4.9,
+              "worst_mae": -3.46,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.748
+            },
+            {
+              "query_id": "300274.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": -3.41,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.764
+            },
+            {
+              "query_id": "601012.SH_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.2,
+              "avg_fwd_return": -0.97,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.787
+            },
+            {
+              "query_id": "688981.SH_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 0.29,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.669
+            },
+            {
+              "query_id": "603986.SH_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -2.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.881
+            },
+            {
+              "query_id": "000651.SZ_2026-05-26_day",
+              "true_S_rate": 0.6,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": 2.91,
+              "worst_mae": -15.0,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.668
+            },
+            {
+              "query_id": "002415.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": -0.63,
+              "worst_mae": -15.0,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.635
+            },
+            {
+              "query_id": "000858.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -2.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.876
+            },
+            {
+              "query_id": "000001.SZ_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": -0.03,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.583
+            },
+            {
+              "query_id": "SYNTH_OPTICAL_A.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.2,
+              "avg_fwd_return": -1.63,
+              "worst_mae": -15.0,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.77
+            },
+            {
+              "query_id": "002475.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.0,
+              "avg_fwd_return": -5.89,
+              "worst_mae": -9.97,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.777
+            },
+            {
+              "query_id": "300274.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -2.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.822
+            },
+            {
+              "query_id": "601012.SH_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": -0.58,
+              "worst_mae": -15.0,
+              "label_entropy": 1.332,
+              "avg_similarity": 0.848
+            },
+            {
+              "query_id": "688981.SH_2026-05-27_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": 1.91,
+              "worst_mae": -15.0,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.665
+            },
+            {
+              "query_id": "603986.SH_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -2.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.878
+            },
+            {
+              "query_id": "000651.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": -1.42,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.738
+            },
+            {
+              "query_id": "002415.SZ_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 0.01,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.744
+            },
+            {
+              "query_id": "000858.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": -1.1,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.724
+            },
+            {
+              "query_id": "000001.SZ_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": 1.16,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.613
+            }
+          ]
+        },
+        "T10": {
+          "n_queries": 20,
+          "top_k": 5,
+          "horizon": "T10",
+          "embedding_type": "z",
+          "mean_true_S_rate": 0.14,
+          "mean_false_trap_rate": 0.56,
+          "mean_avg_fwd_return": -0.73,
+          "mean_similarity": 0.747,
+          "bca_true_S_rate": {
+            "point": 0.14,
+            "lower": 0.08,
+            "upper": 0.24,
+            "n": 20,
+            "n_resamples": 10000,
+            "method": "bca",
+            "acceleration": 0.038648
+          },
+          "per_query": [
+            {
+              "query_id": "SYNTH_OPTICAL_A.SZ_2026-05-26_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.0,
+              "avg_fwd_return": 5.08,
+              "worst_mae": -10.21,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.759
+            },
+            {
+              "query_id": "002475.SZ_2026-05-26_day",
+              "true_S_rate": 0.6,
+              "false_trap_rate": 0.0,
+              "avg_fwd_return": 8.52,
+              "worst_mae": -7.89,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.748
+            },
+            {
+              "query_id": "300274.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": -4.6,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.764
+            },
+            {
+              "query_id": "601012.SH_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.2,
+              "avg_fwd_return": -2.05,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.787
+            },
+            {
+              "query_id": "688981.SH_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 0.61,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.669
+            },
+            {
+              "query_id": "603986.SH_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -3.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.881
+            },
+            {
+              "query_id": "000651.SZ_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": 0.86,
+              "worst_mae": -15.0,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.668
+            },
+            {
+              "query_id": "002415.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": -3.31,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.635
+            },
+            {
+              "query_id": "000858.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -3.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.876
+            },
+            {
+              "query_id": "000001.SZ_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 2.34,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.583
+            },
+            {
+              "query_id": "SYNTH_OPTICAL_A.SZ_2026-05-27_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.2,
+              "avg_fwd_return": 3.1,
+              "worst_mae": -15.0,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.77
+            },
+            {
+              "query_id": "002475.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.2,
+              "avg_fwd_return": -12.81,
+              "worst_mae": -17.04,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.777
+            },
+            {
+              "query_id": "300274.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -3.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.822
+            },
+            {
+              "query_id": "601012.SH_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": -2.87,
+              "worst_mae": -15.0,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.848
+            },
+            {
+              "query_id": "688981.SH_2026-05-27_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": 2.49,
+              "worst_mae": -15.0,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.665
+            },
+            {
+              "query_id": "603986.SH_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -3.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.878
+            },
+            {
+              "query_id": "000651.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": -1.89,
+              "worst_mae": -15.0,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.738
+            },
+            {
+              "query_id": "002415.SZ_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 0.0,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.744
+            },
+            {
+              "query_id": "000858.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": -2.03,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.724
+            },
+            {
+              "query_id": "000001.SZ_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": 3.94,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.613
+            }
+          ]
+        },
+        "T20": {
+          "n_queries": 20,
+          "top_k": 5,
+          "horizon": "T20",
+          "embedding_type": "z",
+          "mean_true_S_rate": 0.16,
+          "mean_false_trap_rate": 0.59,
+          "mean_avg_fwd_return": 1.7,
+          "mean_similarity": 0.747,
+          "bca_true_S_rate": {
+            "point": 0.16,
+            "lower": 0.08,
+            "upper": 0.25,
+            "n": 20,
+            "n_resamples": 10000,
+            "method": "bca",
+            "acceleration": 0.029159
+          },
+          "per_query": [
+            {
+              "query_id": "SYNTH_OPTICAL_A.SZ_2026-05-26_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.0,
+              "avg_fwd_return": 17.66,
+              "worst_mae": -10.21,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.759
+            },
+            {
+              "query_id": "002475.SZ_2026-05-26_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.0,
+              "avg_fwd_return": 10.09,
+              "worst_mae": -7.89,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.748
+            },
+            {
+              "query_id": "300274.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": -3.35,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.764
+            },
+            {
+              "query_id": "601012.SH_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.2,
+              "avg_fwd_return": -2.28,
+              "worst_mae": -15.0,
+              "label_entropy": 1.332,
+              "avg_similarity": 0.787
+            },
+            {
+              "query_id": "688981.SH_2026-05-26_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 8.59,
+              "worst_mae": -15.0,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.669
+            },
+            {
+              "query_id": "603986.SH_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -5.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.881
+            },
+            {
+              "query_id": "000651.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": -3.74,
+              "worst_mae": -15.0,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.668
+            },
+            {
+              "query_id": "002415.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": -1.56,
+              "worst_mae": -15.0,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.635
+            },
+            {
+              "query_id": "000858.SZ_2026-05-26_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -5.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.876
+            },
+            {
+              "query_id": "000001.SZ_2026-05-26_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 5.24,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.583
+            },
+            {
+              "query_id": "SYNTH_OPTICAL_A.SZ_2026-05-27_day",
+              "true_S_rate": 0.6,
+              "false_trap_rate": 0.2,
+              "avg_fwd_return": 17.15,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.77
+            },
+            {
+              "query_id": "002475.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": -4.39,
+              "worst_mae": -23.05,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.777
+            },
+            {
+              "query_id": "300274.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -5.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.822
+            },
+            {
+              "query_id": "601012.SH_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": -2.73,
+              "worst_mae": -15.0,
+              "label_entropy": 1.332,
+              "avg_similarity": 0.848
+            },
+            {
+              "query_id": "688981.SH_2026-05-27_day",
+              "true_S_rate": 0.4,
+              "false_trap_rate": 0.4,
+              "avg_fwd_return": 9.6,
+              "worst_mae": -15.0,
+              "label_entropy": 1.055,
+              "avg_similarity": 0.665
+            },
+            {
+              "query_id": "603986.SH_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 1.0,
+              "avg_fwd_return": -5.0,
+              "worst_mae": -15.0,
+              "label_entropy": -0.0,
+              "avg_similarity": 0.878
+            },
+            {
+              "query_id": "000651.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": -3.65,
+              "worst_mae": -15.0,
+              "label_entropy": 0.673,
+              "avg_similarity": 0.738
+            },
+            {
+              "query_id": "002415.SZ_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.6,
+              "avg_fwd_return": 5.99,
+              "worst_mae": -15.0,
+              "label_entropy": 0.95,
+              "avg_similarity": 0.744
+            },
+            {
+              "query_id": "000858.SZ_2026-05-27_day",
+              "true_S_rate": 0.0,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": -4.07,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.724
+            },
+            {
+              "query_id": "000001.SZ_2026-05-27_day",
+              "true_S_rate": 0.2,
+              "false_trap_rate": 0.8,
+              "avg_fwd_return": 5.45,
+              "worst_mae": -15.0,
+              "label_entropy": 0.5,
+              "avg_similarity": 0.613
+            }
+          ]
+        }
+      }
+    },
+    "B_kronos": {
+      "skipped": true,
+      "reason": "no kronos vectors"
+    },
+    "C_fused_pca16": {
+      "skipped": true,
+      "reason": "no fused vectors"
+    }
+  },
+  "decision": {
+    "verdict": "PENDING",
+    "reason": "Warpcore and/or fused arms unavailable; run Phase 3 embeddings first."
+  }
+}

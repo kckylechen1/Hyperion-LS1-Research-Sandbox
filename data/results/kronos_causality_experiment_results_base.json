@@ -1,0 +1,152 @@
+{
+  "title": "Kronos Time-Slice Vector Causality Experiment Report (Public Redacted)",
+  "description": "Redacted public copy: Kronos embedding similarity probe (synthetic tickers).",
+  "calibration_status": "insufficient_calibration",
+  "metadata": {
+    "load_mode": "pytorch_hub",
+    "load_error": null,
+    "embedding_dim": 832,
+    "device": "mps",
+    "model_repo": "NeoQuasar/Kronos-base",
+    "tokenizer_repo": "NeoQuasar/Kronos-Tokenizer-base",
+    "feature_cols": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "turnover"
+    ],
+    "preprocess_mode": "zscore_norm"
+  },
+  "data_metadata": {
+    "symbols": [
+      "SYNTH_CHIP_A.SH",
+      "SYNTH_CHIP_B.SH",
+      "SYNTH_OPTICAL_A.SZ",
+      "SYNTH_FII_A.SH"
+    ],
+    "date_range": {
+      "SYNTH_CHIP_A.SH": {
+        "15min": "2026-03-05 to 2026-06-02",
+        "day": "2025-02-21 to 2026-06-02"
+      },
+      "SYNTH_CHIP_B.SH": {
+        "15min": "2026-03-05 to 2026-06-02",
+        "day": "2025-03-07 to 2026-06-02"
+      },
+      "SYNTH_OPTICAL_A.SZ": {
+        "15min": "2026-03-06 to 2026-06-02",
+        "day": "2025-03-07 to 2026-06-02"
+      },
+      "SYNTH_FII_A.SH": {
+        "15min": "2026-03-05 to 2026-06-02",
+        "day": "2025-03-07 to 2026-06-02"
+      }
+    },
+    "total_bars_loaded": 5200,
+    "timestamp": "2026-06-02T06:47:32Z"
+  },
+  "cross_sectional_similarity": {
+    "peak_15m_similarity": {
+      "SYNTH_CHIP_A.SH": {
+        "SYNTH_CHIP_A.SH": 1.0,
+        "SYNTH_CHIP_B.SH": -0.2383,
+        "SYNTH_OPTICAL_A.SZ": -0.4221,
+        "SYNTH_FII_A.SH": -0.5245
+      },
+      "SYNTH_CHIP_B.SH": {
+        "SYNTH_CHIP_A.SH": -0.2383,
+        "SYNTH_CHIP_B.SH": 1.0,
+        "SYNTH_OPTICAL_A.SZ": 0.7064,
+        "SYNTH_FII_A.SH": 0.3577
+      },
+      "SYNTH_OPTICAL_A.SZ": {
+        "SYNTH_CHIP_A.SH": -0.4221,
+        "SYNTH_CHIP_B.SH": 0.7064,
+        "SYNTH_OPTICAL_A.SZ": 1.0,
+        "SYNTH_FII_A.SH": 0.699
+      },
+      "SYNTH_FII_A.SH": {
+        "SYNTH_CHIP_A.SH": -0.5245,
+        "SYNTH_CHIP_B.SH": 0.3577,
+        "SYNTH_OPTICAL_A.SZ": 0.699,
+        "SYNTH_FII_A.SH": 1.0
+      }
+    },
+    "entry_day_similarity": {
+      "SYNTH_CHIP_A.SH": {
+        "SYNTH_CHIP_A.SH": 1.0,
+        "SYNTH_CHIP_B.SH": 0.7429,
+        "SYNTH_OPTICAL_A.SZ": 0.6986,
+        "SYNTH_FII_A.SH": 0.8955
+      },
+      "SYNTH_CHIP_B.SH": {
+        "SYNTH_CHIP_A.SH": 0.7429,
+        "SYNTH_CHIP_B.SH": 1.0,
+        "SYNTH_OPTICAL_A.SZ": 0.9749,
+        "SYNTH_FII_A.SH": 0.6451
+      },
+      "SYNTH_OPTICAL_A.SZ": {
+        "SYNTH_CHIP_A.SH": 0.6986,
+        "SYNTH_CHIP_B.SH": 0.9749,
+        "SYNTH_OPTICAL_A.SZ": 1.0,
+        "SYNTH_FII_A.SH": 0.6059
+      },
+      "SYNTH_FII_A.SH": {
+        "SYNTH_CHIP_A.SH": 0.8955,
+        "SYNTH_CHIP_B.SH": 0.6451,
+        "SYNTH_OPTICAL_A.SZ": 0.6059,
+        "SYNTH_FII_A.SH": 1.0
+      }
+    }
+  },
+  "transition_similarity": {
+    "SYNTH_CHIP_A.SH": {
+      "Entry_vs_Reaction": 0.9215,
+      "Reaction_vs_Exit": 0.9349,
+      "Entry_vs_Exit": 0.7835
+    },
+    "SYNTH_CHIP_B.SH": {
+      "Entry_vs_Reaction": 0.9313,
+      "Reaction_vs_Exit": 0.9272,
+      "Entry_vs_Exit": 0.7819
+    },
+    "SYNTH_OPTICAL_A.SZ": {
+      "Entry_vs_Reaction": 0.999,
+      "Reaction_vs_Exit": 0.9729,
+      "Entry_vs_Exit": 0.9701
+    },
+    "SYNTH_FII_A.SH": {
+      "Entry_vs_Reaction": 0.9828,
+      "Reaction_vs_Exit": 0.9502,
+      "Entry_vs_Exit": 0.9746
+    }
+  },
+  "micro_macro_divergence": {
+    "SYNTH_CHIP_A.SH": {
+      "SYNTH_CHIP_A.SH": 0.0,
+      "SYNTH_CHIP_B.SH": 0.9812,
+      "SYNTH_OPTICAL_A.SZ": 1.1207,
+      "SYNTH_FII_A.SH": 1.42
+    },
+    "SYNTH_CHIP_B.SH": {
+      "SYNTH_CHIP_A.SH": 0.9812,
+      "SYNTH_CHIP_B.SH": 0.0,
+      "SYNTH_OPTICAL_A.SZ": 0.2685,
+      "SYNTH_FII_A.SH": 0.2874
+    },
+    "SYNTH_OPTICAL_A.SZ": {
+      "SYNTH_CHIP_A.SH": 1.1207,
+      "SYNTH_CHIP_B.SH": 0.2685,
+      "SYNTH_OPTICAL_A.SZ": 0.0,
+      "SYNTH_FII_A.SH": -0.0931
+    },
+    "SYNTH_FII_A.SH": {
+      "SYNTH_CHIP_A.SH": 1.42,
+      "SYNTH_CHIP_B.SH": 0.2874,
+      "SYNTH_OPTICAL_A.SZ": -0.0931,
+      "SYNTH_FII_A.SH": 0.0
+    }
+  }
+}

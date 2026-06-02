@@ -1,0 +1,98 @@
+{
+  "symbol": "SYNTH.XYS02.SZ",
+  "as_of_date": "2026-04-02 14:10:00",
+  "scenario": "healthy_washout",
+  "outcome_label": "healthy_washout",
+  "meta": {
+    "aggregate_discouraged_buy": false,
+    "synthetic": true,
+    "redacted_name": "新易盛（合成）"
+  },
+  "v8_score": {
+    "grade": "B",
+    "setup_score": 28.0,
+    "ignition_score": 8.0,
+    "overheat_index": 2,
+    "toxic_breaker": false
+  },
+  "ls1_supercharged": {
+    "spring": {
+      "coiling": true,
+      "launch": false,
+      "breakout_60d": false
+    },
+    "three_push": {
+      "pump_dump_vol_ratio": 0.92
+    }
+  },
+  "compression_setup": {
+    "is_range_compressed": true,
+    "is_bb_squeeze": true,
+    "is_ready": true
+  },
+  "trap_detection": {
+    "pump_fake": {
+      "is_trap": false,
+      "trap_type": "none",
+      "volume_ratio": 1.0,
+      "details": ""
+    },
+    "volume_gap": {
+      "is_gap": false
+    }
+  },
+  "intraday_volume_structure": {
+    "launch_signal": false,
+    "accel_ratio": 0.88,
+    "escape_signal": false
+  },
+  "crash_signals": {
+    "panic_reversal": {
+      "detected": false
+    }
+  },
+  "chan": {
+    "bsp": {
+      "latest": {
+        "side": "买",
+        "types": [
+          "T1p"
+        ]
+      },
+      "latest_confirmed": {
+        "side": "买",
+        "types": [
+          "T1p"
+        ]
+      },
+      "latest_candidate": null
+    },
+    "stage_code": "mature",
+    "zs_count": 3
+  },
+  "indicators": {
+    "macd": {
+      "state": "缠绕"
+    }
+  },
+  "momentum": {
+    "vol_ratio_5d": 0.95
+  },
+  "price": {
+    "turnover_rate": 1.2
+  },
+  "capital_flow": {
+    "total_net": -200000.0
+  },
+  "macro_sentinel": {
+    "regime": "bull",
+    "vol_regime": "normal",
+    "hard_block": false
+  },
+  "iron_verdict": "neutral",
+  "outcome": {
+    "return_t5": 0.031,
+    "return_t10": 0.055,
+    "note": "synthetic — intraday chop; structure held"
+  }
+}

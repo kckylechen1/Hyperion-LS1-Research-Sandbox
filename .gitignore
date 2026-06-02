@@ -1,0 +1,27 @@
+__pycache__/
+**/__pycache__/
+*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+dist/
+*.egg-info/
+.DS_Store
+
+# Never commit secrets or production artifacts
+.env
+.env.*
+*.db
+*.duckdb
+*.sqlite
+*.sqlite3
+*.parquet
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+
+QUARANTINE_NOT_FOR_UPLOAD/

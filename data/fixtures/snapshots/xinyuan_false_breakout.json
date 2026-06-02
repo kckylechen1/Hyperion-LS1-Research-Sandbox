@@ -1,0 +1,98 @@
+{
+  "symbol": "SYNTH.XY03.SH",
+  "as_of_date": "2026-04-18 11:00:00",
+  "scenario": "false_breakout",
+  "outcome_label": "false_breakout",
+  "meta": {
+    "aggregate_discouraged_buy": false,
+    "synthetic": true,
+    "redacted_name": "芯原股份（合成）"
+  },
+  "v8_score": {
+    "grade": "A",
+    "setup_score": 30.0,
+    "ignition_score": 16.0,
+    "overheat_index": 5,
+    "toxic_breaker": false
+  },
+  "ls1_supercharged": {
+    "spring": {
+      "coiling": false,
+      "launch": true,
+      "breakout_60d": true
+    },
+    "three_push": {
+      "pump_dump_vol_ratio": 0.07
+    }
+  },
+  "compression_setup": {
+    "is_range_compressed": false,
+    "is_bb_squeeze": false,
+    "is_ready": false
+  },
+  "trap_detection": {
+    "pump_fake": {
+      "is_trap": true,
+      "trap_type": "pump_fake",
+      "volume_ratio": 0.07,
+      "details": "synthetic — 拉升量能远弱于前置砸盘"
+    },
+    "volume_gap": {
+      "is_gap": true
+    }
+  },
+  "intraday_volume_structure": {
+    "launch_signal": true,
+    "accel_ratio": 0.35,
+    "escape_signal": true
+  },
+  "crash_signals": {
+    "panic_reversal": {
+      "detected": false
+    }
+  },
+  "chan": {
+    "bsp": {
+      "latest": {
+        "side": "买",
+        "types": [
+          "T3"
+        ]
+      },
+      "latest_confirmed": null,
+      "latest_candidate": {
+        "side": "买",
+        "types": [
+          "T3"
+        ]
+      }
+    },
+    "stage_code": "complete",
+    "zs_count": 4
+  },
+  "indicators": {
+    "macd": {
+      "state": "金叉持续"
+    }
+  },
+  "momentum": {
+    "vol_ratio_5d": 1.8
+  },
+  "price": {
+    "turnover_rate": 4.5
+  },
+  "capital_flow": {
+    "total_net": 500000.0
+  },
+  "macro_sentinel": {
+    "regime": "range",
+    "vol_regime": "high",
+    "hard_block": false
+  },
+  "iron_verdict": "caution",
+  "outcome": {
+    "return_t5": -0.058,
+    "return_t10": -0.072,
+    "note": "synthetic — day breakout failed; distribution trap"
+  }
+}

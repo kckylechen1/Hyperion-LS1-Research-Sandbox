@@ -1,0 +1,98 @@
+{
+  "symbol": "SYNTH.DS01.SH",
+  "as_of_date": "2026-03-15 10:35:00",
+  "scenario": "missed_entry",
+  "outcome_label": "missed_entry",
+  "meta": {
+    "aggregate_discouraged_buy": true,
+    "synthetic": true,
+    "redacted_name": "东山精密（合成）"
+  },
+  "v8_score": {
+    "grade": "C",
+    "setup_score": 22.0,
+    "ignition_score": 14.0,
+    "overheat_index": 3,
+    "toxic_breaker": false
+  },
+  "ls1_supercharged": {
+    "spring": {
+      "coiling": true,
+      "launch": true,
+      "breakout_60d": false
+    },
+    "three_push": {
+      "pump_dump_vol_ratio": 1.15
+    }
+  },
+  "compression_setup": {
+    "is_range_compressed": true,
+    "is_bb_squeeze": true,
+    "is_ready": false
+  },
+  "trap_detection": {
+    "pump_fake": {
+      "is_trap": false,
+      "trap_type": "none",
+      "volume_ratio": 1.0,
+      "details": ""
+    },
+    "volume_gap": {
+      "is_gap": false
+    }
+  },
+  "intraday_volume_structure": {
+    "launch_signal": true,
+    "accel_ratio": 1.42,
+    "escape_signal": false
+  },
+  "crash_signals": {
+    "panic_reversal": {
+      "detected": false
+    }
+  },
+  "chan": {
+    "bsp": {
+      "latest": {
+        "side": "买",
+        "types": [
+          "T2"
+        ]
+      },
+      "latest_confirmed": null,
+      "latest_candidate": {
+        "side": "买",
+        "types": [
+          "T3"
+        ]
+      }
+    },
+    "stage_code": "developing",
+    "zs_count": 2
+  },
+  "indicators": {
+    "macd": {
+      "state": "金叉持续"
+    }
+  },
+  "momentum": {
+    "vol_ratio_5d": 1.25
+  },
+  "price": {
+    "turnover_rate": 2.1
+  },
+  "capital_flow": {
+    "total_net": 1200000.0
+  },
+  "macro_sentinel": {
+    "regime": "range",
+    "vol_regime": "normal",
+    "hard_block": false
+  },
+  "iron_verdict": "neutral",
+  "outcome": {
+    "return_t5": 0.068,
+    "return_t10": 0.092,
+    "note": "synthetic — user passed; stock rallied without entry"
+  }
+}
